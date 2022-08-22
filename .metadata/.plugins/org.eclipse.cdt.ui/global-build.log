@@ -1,0 +1,196 @@
+22:34:21 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program001.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program001.d" -MT"Program001.o" -o "Program001.o" "../Program001.c"
+Finished building: ../Program001.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program001.o   
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): referência não definida para "main"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:34:27 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program001.d ./Program001.o
+rm -rf ProgramasC
+ 
+22:34:33 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program001.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program001.d" -MT"Program001.o" -o "Program001.o" "../Program001.c"
+Finished building: ../Program001.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program001.o   
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): referência não definida para "main"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:34:40 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program001.d ./Program001.o
+rm -rf ProgramasC
+ 
+22:34:54 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program001.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program001.d" -MT"Program001.o" -o "Program001.o" "../Program001.c"
+Finished building: ../Program001.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program001.o   
+Finished building target: ProgramasC
+ 
+22:35:00 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program001.d ./Program001.o
+rm -rf ProgramasC
+ 
+22:35:08 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program001.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program001.d" -MT"Program001.o" -o "Program001.o" "../Program001.c"
+Finished building: ../Program001.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program001.o   
+Finished building target: ProgramasC
+ 
+22:35:18 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+22:39:42 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program002.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program002.d" -MT"Program002.o" -o "Program002.o" "../Program002.c"
+../Program002.c: In function ‘main’:
+../Program002.c:8:16: warning: too many arguments for format [-Wformat-extra-args]
+    8 |         printf(" O numéro digitado foi: ", a);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../Program002.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program002.o   
+Finished building target: ProgramasC
+ 
+22:40:27 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program002.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program002.d" -MT"Program002.o" -o "Program002.o" "../Program002.c"
+../Program002.c: In function ‘main’:
+../Program002.c:8:16: warning: too many arguments for format [-Wformat-extra-args]
+    8 |         printf(" O numéro digitado foi: \n", a);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../Program002.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program002.o   
+Finished building target: ProgramasC
+ 
+22:40:58 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program002.d ./Program002.o
+rm -rf ProgramasC
+ 
+22:41:01 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program002.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program002.d" -MT"Program002.o" -o "Program002.o" "../Program002.c"
+../Program002.c: In function ‘main’:
+../Program002.c:8:16: warning: too many arguments for format [-Wformat-extra-args]
+    8 |         printf(" O numéro digitado foi: \n", a);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../Program002.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program002.o   
+Finished building target: ProgramasC
+ 
+22:41:06 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program002.d ./Program002.o
+rm -rf ProgramasC
+ 
+22:41:09 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program002.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program002.d" -MT"Program002.o" -o "Program002.o" "../Program002.c"
+../Program002.c: In function ‘main’:
+../Program002.c:8:16: warning: too many arguments for format [-Wformat-extra-args]
+    8 |         printf(" O numéro digitado foi: \n", a);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../Program002.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program002.o   
+Finished building target: ProgramasC
+ 
+22:44:28 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program002.d ./Program002.o
+rm -rf ProgramasC
+ 
+22:44:32 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program002.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program002.d" -MT"Program002.o" -o "Program002.o" "../Program002.c"
+../Program002.c: In function ‘main’:
+../Program002.c:8:16: warning: too many arguments for format [-Wformat-extra-args]
+    8 |         printf(" O numero digitado foi: \n",a);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../Program002.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program002.o   
+Finished building target: ProgramasC
+ 
+22:45:07 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program002.d ./Program002.o
+rm -rf ProgramasC
+ 
+22:45:52 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program002.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program002.d" -MT"Program002.o" -o "Program002.o" "../Program002.c"
+Finished building: ../Program002.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program002.o   
+Finished building target: ProgramasC
+ 
+22:46:11 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program002.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program002.d" -MT"Program002.o" -o "Program002.o" "../Program002.c"
+Finished building: ../Program002.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program002.o   
+Finished building target: ProgramasC
+ 
