@@ -1,0 +1,12 @@
+#include <stdio.h>
+// Peça ao usuátio para digitar três numeros inteiros e imprima a soma deles.
+
+
+int main(){
+	int a = 3;
+	int b = 4;
+	int c = 2;
+	int d = a+b+c;
+	printf("%d", d);
+
+}

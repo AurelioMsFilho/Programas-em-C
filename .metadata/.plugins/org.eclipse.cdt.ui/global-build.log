@@ -194,3 +194,221 @@ Invoking: GCC C Linker
 gcc  -o "ProgramasC" ./Program002.o   
 Finished building target: ProgramasC
  
+22:08:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program002.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program002.d" -MT"Program002.o" -o "Program002.o" "../Program002.c"
+Finished building: ../Program002.c
+ 
+Building file: ../Program003.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program003.d" -MT"Program003.o" -o "Program003.o" "../Program003.c"
+../Program003.c: In function ‘main’:
+../Program003.c:7:9: warning: implicit declaration of function ‘println’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+    7 |         println(a+b+c);
+      |         ^~~~~~~
+      |         printf
+Finished building: ../Program003.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program002.o ./Program003.o   
+/usr/bin/ld: ./Program003.o: na função "main":
+/home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program003.c:3: múltiplas definições de "main"; ./Program002.o:/home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program002.c:3: definido primeiro aqui
+/usr/bin/ld: ./Program003.o: na função "main":
+/home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program003.c:7: referência não definida para "println"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:08:57 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program002.d ./Program002.o ./Program003.d ./Program003.o
+rm -rf ProgramasC
+ 
+22:09:09 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program003.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program003.d" -MT"Program003.o" -o "Program003.o" "../Program003.c"
+../Program003.c: In function ‘main’:
+../Program003.c:7:9: warning: implicit declaration of function ‘println’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+    7 |         println(a+b+c);
+      |         ^~~~~~~
+      |         printf
+Finished building: ../Program003.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+/usr/bin/ld: ./Program003.o: na função "main":
+/home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program003.c:7: referência não definida para "println"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:09:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+/usr/bin/ld: ./Program003.o: na função "main":
+/home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program003.c:7: referência não definida para "println"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:09:21 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program003.d ./Program003.o
+rm -rf ProgramasC
+ 
+22:09:28 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program003.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program003.d" -MT"Program003.o" -o "Program003.o" "../Program003.c"
+../Program003.c: In function ‘main’:
+../Program003.c:7:9: warning: implicit declaration of function ‘println’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+    7 |         println(a+b+c);
+      |         ^~~~~~~
+      |         printf
+Finished building: ../Program003.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+/usr/bin/ld: ./Program003.o: na função "main":
+/home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program003.c:7: referência não definida para "println"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:12:14 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program003.d ./Program003.o
+rm -rf ProgramasC
+ 
+22:12:18 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program003.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program003.d" -MT"Program003.o" -o "Program003.o" "../Program003.c"
+Finished building: ../Program003.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+Finished building target: ProgramasC
+ 
+22:12:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+22:18:05 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program003.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program003.d" -MT"Program003.o" -o "Program003.o" "../Program003.c"
+../Program003.c: In function ‘main’:
+../Program003.c:12:18: warning: ‘b’ is used uninitialized [-Wuninitialized]
+   12 |         int d = a+b+c;
+      |                 ~^~
+../Program003.c:12:13: warning: ‘c’ is used uninitialized [-Wuninitialized]
+   12 |         int d = a+b+c;
+      |             ^
+Finished building: ../Program003.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+Finished building target: ProgramasC
+ 
+22:20:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program003.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program003.d" -MT"Program003.o" -o "Program003.o" "../Program003.c"
+../Program003.c: In function ‘main’:
+../Program003.c:11:9: warning: implicit declaration of function ‘Printf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   11 |         Printf("Digite outro valor: ");
+      |         ^~~~~~
+      |         printf
+../Program003.c:12:9: warning: implicit declaration of function ‘scnaf’; did you mean ‘scanf’? [-Wimplicit-function-declaration]
+   12 |         scnaf("%d", &b);
+      |         ^~~~~
+      |         scanf
+Finished building: ../Program003.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+/usr/bin/ld: ./Program003.o: na função "main":
+/home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program003.c:11: referência não definida para "Printf"
+/usr/bin/ld: /home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program003.c:12: referência não definida para "scnaf"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:21:17 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program003.d ./Program003.o
+rm -rf ProgramasC
+ 
+22:21:20 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program003.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program003.d" -MT"Program003.o" -o "Program003.o" "../Program003.c"
+../Program003.c: In function ‘main’:
+../Program003.c:12:9: warning: implicit declaration of function ‘scnaf’; did you mean ‘scanf’? [-Wimplicit-function-declaration]
+   12 |         scnaf("%d", &b);
+      |         ^~~~~
+      |         scanf
+Finished building: ../Program003.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+/usr/bin/ld: ./Program003.o: na função "main":
+/home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program003.c:12: referência não definida para "scnaf"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:21:32 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+/usr/bin/ld: ./Program003.o: na função "main":
+/home/aurelio/Programação/Program_C/ProgramasC/ProgramasC/Debug/../Program003.c:12: referência não definida para "scnaf"
+collect2: error: ld returned 1 exit status
+make: *** [makefile:43: ProgramasC] Erro 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:22:02 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+rm -rf ./Program003.d ./Program003.o
+rm -rf ProgramasC
+ 
+22:22:05 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program003.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program003.d" -MT"Program003.o" -o "Program003.o" "../Program003.c"
+Finished building: ../Program003.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+Finished building target: ProgramasC
+ 
+22:22:09 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+make: Nada a ser feito para 'all'.
+22:23:06 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+Building file: ../Program003.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Program003.d" -MT"Program003.o" -o "Program003.o" "../Program003.c"
+Finished building: ../Program003.c
+ 
+Building target: ProgramasC
+Invoking: GCC C Linker
+gcc  -o "ProgramasC" ./Program003.o   
+Finished building target: ProgramasC
+ 
